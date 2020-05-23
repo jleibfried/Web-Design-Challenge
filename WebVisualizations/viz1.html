@@ -3,47 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Review</title>
+    <title>viz1</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar">
-          <ul>
-            <li>
-              <a href="index.html">Home Page</a>
-            </li>
-            <li>
-              <a href="viz0.html">Lat vs Max Temp</a>
-            </li>
-            <li>
-                <a href="viz1.html">Lat vs Humidity</a>
-            </li>
-            <li>
-                <a href="viz2.html">Lat vs Clouds</a>
-            </li>
-            <li>
-                <a href="viz3.html">Lat vs Wind</a>
-            </li>
+    
+    <!-- 
+    Sourcing required bootstrap navbar
+    https://www.w3schools.com/bootstrap/bootstrap_navbar.asp 
+    https://getbootstrap.com/docs/4.0/components/navbar/
+     -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <ul>
+                    <li>
+                        <a href="index.html">Home Page</a>
+                    </li>
+                    <li>
+                        <a href="viz0.html">Lat vs Max Temp</a>
+                    </li>
+                    <li>
+                        <a href="viz1.html">Lat vs Humidity</a>
+                    </li>
+                    <li>
+                        <a href="viz2.html">Lat vs Clouds</a>
+                    </li>
+                    <li>
+                        <a href="viz3.html">Lat vs Wind</a>
+                    </li>
+                    <li>
+                        <a href="compare.html">Comparison</a>
+                    </li>
+                    <li>
+                        <a href="data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
-            <li>
-              <a href="#">Portfolio</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-        </nav>
+    </nav>
 
-    </div>
+<!-- This is repeated code for each html file.  I don't know but I would like to know if this could 
+be replace with another file and a method call -->
+
+
     <header class="header">
         <h1>Viz 1</h1>
     </header>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>HEADER TEXT</h2>
+                <br>
+                <h3>more in depth text</h3>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img src="../Resources/assets/images/Fig1.png">
+            </div>
+        </div>
+    </div>
 
-
-    <img src="../Resources/assets/images/Fig1.png">
 </body>
 </html>
