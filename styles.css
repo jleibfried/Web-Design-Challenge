@@ -3,8 +3,8 @@ This is caustic on the eyes and that's the point
 
 Choosing bad colors and themes was meant 
 to highlight the vast array of tools CSS offers.
-I COULD have choosen something safer 
-and more corporate-acceptable but that seemed boring
+I COULD have chosen something safer 
+and more corporate acceptable but that seemed boring
 */
 body {
   background: yellowgreen;
@@ -16,7 +16,7 @@ h1 {
 }
 
 h2{
-  font-size: 48pt
+  font-size: 36pt
 }
 
 h3 {
@@ -33,12 +33,11 @@ h4{
 }
 
 h5{
-  color: lavenderblush;
+  color: red;
   font-size: 12px;
 }
 
 
-/* Giving our navbar some padding and a background color */
 .navbar-header {
   padding: 10px;
   background: pink;
@@ -79,25 +78,6 @@ h5{
 
 .show {display: block;}
 
-/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
-/* .navbar li {
-  display: inline-block;
-  padding: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
-  cursor: pointer;
-  background: black;
-  border-radius: 3px;
-}
-
-/* Getting rid of the default link styles here 
-.navbar-nav {
-  color: yellowgreen;
-  text-decoration: none;
-} 
-*/
-
-/* Styling the header, giving it a height, a background color, and some top padding */
 .header {
   height: 200px;
   padding-top: 20px;
@@ -105,7 +85,6 @@ h5{
   color: pink;
 }
 
-/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
 .header h1 {
   padding: 60px;
   margin: 0;
@@ -114,15 +93,9 @@ h5{
   font-family: Impact, Charcoal, sans-serif;
 }
 
-/* Giving the .post element margin on 3 sides */
-.post {
-  margin-top: 50px;
-  margin-right: 100px;
-  margin-left: 100px;
-}
 
 .container{
-  background: pink;
+  background: cyan;
 }
 
 .rightAlign{
